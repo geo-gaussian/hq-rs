@@ -77,7 +77,7 @@ fn block() {
     let body = utilities::read_test_hcl().expect("hcl error");
 
     let expected = vec![
-        String::from("data \"a_data_block\" \"with_some_attrs\" {\n  my_attr = \"my_attr_value\"\n  another_attr = \"another_attr_value\"\n}\n"),
+        String::from("data \"a_data_block\" \"with_some_attrs\" {\n  my_attr = \"my_attr_value\"\n  another_attr = \"another_attr_value\"\n  more-attr = 12345\n}\n"),
         String::from("data \"another_data_block\" \"with_some_attrs\" {\n  cromulent_attr = \"cromulent_value\"\n}\n"),
     ];
 

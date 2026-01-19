@@ -9,6 +9,7 @@ some_block "some_block_label" {
 
 some_block "another_block_label" {
     attr = "another_value"
+    some-nested-attr = 42
 }
 
 # this is a block comment

@@ -10,6 +10,7 @@ variable "another_var" { default = "another_default_value" }
 data "a_data_block" "with_some_attrs" {
     my_attr = "my_attr_value"
     another_attr = "another_attr_value"
+    more-attr = 12345
 }
 
 data "another_data_block" "with_some_attrs" {
